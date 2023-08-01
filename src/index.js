@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDom from "react-dom";
+import App from './App'
 
-const PlaceholderComponent = () => "Ok, seems everything went just right!";
-
-ReactDom.render(<PlaceholderComponent />, document.getElementById("app"));
+ReactDom.render(<App />, document.getElementById("app"));
